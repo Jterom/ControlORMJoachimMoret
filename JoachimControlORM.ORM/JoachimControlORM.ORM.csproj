@@ -51,21 +51,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client.cs" />
     <Compile Include="ContextBDD.cs" />
-    <Compile Include="Migrations\201911141313358_model.cs" />
-    <Compile Include="Migrations\201911141313358_model.designer.cs">
-      <DependentUpon>201911141313358_model.cs</DependentUpon>
+    <Compile Include="Jeu.cs" />
+    <Compile Include="lienJeuClient.cs" />
+    <Compile Include="Migrations\201911141510362_ajoutReservation.cs" />
+    <Compile Include="Migrations\201911141510362_ajoutReservation.designer.cs">
+      <DependentUpon>201911141510362_ajoutReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911141535032_ajoutLiaison.cs" />
+    <Compile Include="Migrations\201911141535032_ajoutLiaison.designer.cs">
+      <DependentUpon>201911141535032_ajoutLiaison.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reservation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201911141313358_model.resx">
-      <DependentUpon>201911141313358_model.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201911141510362_ajoutReservation.resx">
+      <DependentUpon>201911141510362_ajoutReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911141535032_ajoutLiaison.resx">
+      <DependentUpon>201911141535032_ajoutLiaison.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

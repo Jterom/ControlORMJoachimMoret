@@ -7,13 +7,13 @@ namespace JoachimControlORM.ORM.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.3.0")]
-    public sealed partial class model : IMigrationMetadata
+    public sealed partial class ajoutLiaison : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(model));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(ajoutLiaison));
         
         string IMigrationMetadata.Id
         {
-            get { return "201911141313358_model"; }
+            get { return "201911141535032_ajoutLiaison"; }
         }
         
         string IMigrationMetadata.Source
