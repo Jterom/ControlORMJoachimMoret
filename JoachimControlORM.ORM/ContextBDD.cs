@@ -10,7 +10,7 @@ namespace JoachimControlORM.ORM
     public class ContextBDD : DbContext
     {
         public ContextBDD()
-            : base("ChaineDeConnexion")
+            : base("ChaineDeConnexionk")
         {
 
         }
