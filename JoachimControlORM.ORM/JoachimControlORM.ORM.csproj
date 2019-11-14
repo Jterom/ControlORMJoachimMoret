@@ -63,6 +63,10 @@
     <Compile Include="Migrations\201911141535032_ajoutLiaison.designer.cs">
       <DependentUpon>201911141535032_ajoutLiaison.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911141553027_ajoutLiaison1.cs" />
+    <Compile Include="Migrations\201911141553027_ajoutLiaison1.designer.cs">
+      <DependentUpon>201911141553027_ajoutLiaison1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reservation.cs" />
@@ -77,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201911141535032_ajoutLiaison.resx">
       <DependentUpon>201911141535032_ajoutLiaison.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911141553027_ajoutLiaison1.resx">
+      <DependentUpon>201911141553027_ajoutLiaison1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -17,7 +17,13 @@ namespace JoachimControlORM.Console
                 var r1 = from c in db.Jeus
                          join o in db.LienJeuClients on c.IdJeu equals o.IdLienJeuClient
                          join u in db.Clients on o.IdLienJeuClient equals u.IdClient
-                         where o.Aquisition = 1
+                         where o.Aquisition = true
+                         select c;
+
+                var r2 = from c in db.Jeus
+                         join o in db.LienJeuClients on c.IdJeu equals o.IdLienJeuClient
+                         join u in db.Clients on o.IdLienJeuClient equals u.IdClient
+                         where o.Echange = true
                          select c;
             }
         }
